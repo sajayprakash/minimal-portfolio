@@ -1,6 +1,6 @@
 export default function Intro() {
   return (
-    <section className="relative h-80 flex justify-center items-center">
+    <section className="relative pt-20 flex justify-center items-center">
       <div className="z-10 text-center px-8 drop-shadow-lg shadow-black">
         <div className="uppercase text-sm">My</div>
         <div className="text-4xl font-medium">
