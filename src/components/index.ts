@@ -3,6 +3,6 @@ import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import Skills from "./Skills";
+import Timeline from "./Timeline";
 
-export { Intro, Navbar, Projects, Contact, Skills, Footer };
+export { Intro, Navbar, Projects, Contact, Timeline, Footer };

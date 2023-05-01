@@ -2,7 +2,7 @@ import {
   Navbar,
   Intro,
   Projects,
-  Skills,
+  Timeline,
   Contact,
   Footer,
 } from "./components/";
@@ -14,7 +14,7 @@ export default function App() {
       <div className="max-w-5xl w-11/12 mx-auto">
         <Intro />
         <Projects />
-        <Skills />
+        <Timeline />
         <Contact />
         <Footer />
       </div>

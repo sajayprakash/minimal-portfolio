@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { IoMenu } from "react-icons/io5/index.js";
 import DropdownMenuItem from "./DropdownMenuItem";
+import { navLinks } from "../data";
 
 export default function DroptdownMenu() {
   return (
@@ -28,21 +29,11 @@ export default function DroptdownMenu() {
             <div className="text-zinc-700 dark:text-zinc-400 px-3 py-2 uppercase font-bold text-xs">
               Links
             </div>
-            <DropdownMenuItem key="blog posts" href="/posts">
-              Posts
-            </DropdownMenuItem>
-            <DropdownMenuItem
-              key="personal site"
-              href="https://sajayprakash.com"
-            >
-              Personal Site
-            </DropdownMenuItem>
-            <DropdownMenuItem
-              key="portfolio site"
-              href="https://portfolio.sajayprakash.com"
-            >
-              Portfolio Site
-            </DropdownMenuItem>
+            {navLinks.map((link) => (
+              <DropdownMenuItem key={link.id} href={link.url}>
+                {link.title}
+              </DropdownMenuItem>
+            ))}
           </div>
         </Menu.Items>
       </Transition>
