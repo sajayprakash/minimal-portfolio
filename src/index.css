@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate-underline {
+  @apply bg-gradient-to-r from-purple-400 to-purple-700 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-all duration-200 hover:bg-[length:100%_2px];
+}
