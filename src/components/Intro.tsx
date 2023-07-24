@@ -19,8 +19,7 @@ export default function Intro() {
             !
           </p>
           <p>
-            I'm an aspiring full stack developer, currently pursuing my B.E in
-            Computer Science and Engineering at Rajalakshmi Engineering College.
+            I am a Junior undergraduate Computer Engineering student at Rajalakshmi Engineering College, India. 
           </p>
         </div>
       </div>
